@@ -1,0 +1,490 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'cambria math';
+}
+/*0-255 for black 000 white 255 255 255
+for for input
+type for output*/
+header{
+    background-image:linear-gradient(rgba(142, 59, 59, 0.5),rgba(0,0,0,0.5)),url(../Love\ On\ Top.jpeg);
+    height:100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    position:relative;
+}
+u1{
+    float:right;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+u1 li{
+    justify-content: space-between;
+    display:inline-block;
+}
+u1 li a{
+    font-size: 25px;
+    text-decoration: wavy;
+    font-family:monotype corsiva;
+    color: #fff;
+    padding:20px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border:2px solid transparent ;
+    transition:0.3s ease;
+}
+u1 li a:hover{
+    border-bottom: 3px solid #fff;
+    color: bisque;
+}
+u1 li .active a{
+    border-bottom: 3px solid #fff;
+    color: bisque;
+}
+u2{
+    float:left;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+u2 li{
+    justify-content: space-between;
+    display:inline-block;
+}
+u2 li a{
+    font-size: 25px;
+    text-decoration: wavy;
+    font-family:monotype corsiva;
+    color: #fff;
+    padding:20px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border:2px solid transparent ;
+    transition:0.4s ease;
+}
+u2 li a:hover{
+    border-bottom: 3px solid #fff;
+    color: bisque;
+}
+u2 li a.active{
+    border-bottom: 3px solid #fff;
+    color: bisque;
+}
+.title{
+    
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+.title h1{
+    -webkit-text-stroke:0.5px rgb(190, 145, 137);
+    color: bisque;
+    font-size:110px;
+    font-weight:200;
+    width:600px;
+    font-family: 'Cormorant SC';
+}
+.title a{
+    text-decoration: wavy;
+
+    font-family: monotype corsiva;
+    color: rgb(207, 128, 118);
+    position: absolute;
+    padding:10px 15px;
+    border: 1px solid #fff;
+
+}
+.title a:hover{
+    background-color: #fff;
+    color:#000;
+}
+.button{
+    display:inline-block;
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+.btn{
+    border: 2px solid rgb(206, 166, 166); /*instead of px, in pt em cm px*/
+    padding: 10px 15px; 
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    color:#fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+.btn:hover{
+    background-color: #fff ;
+    color: #000;
+}
+
+.aboutus h1{
+    margin-top: 50px;
+    font-family: 'cambria math';
+    font-size: 40px ;
+
+}
+.aboutus p{
+    color: rgb(91, 72, 72);
+    margin-top:15px;
+    font-size:18px;
+    font-family: monotype corsiva;
+}
+.button2{
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top:125%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.btn2{
+    
+    border: 2px solid  rgb(91, 72, 72);
+    padding: 10px 15px;
+    font-size: 17px;
+    font-family: cambria math;
+    cursor:pointer;
+    background: transparent;
+    color:#000;
+    text-decoration: none;
+    transition: 0.6s ease;
+    
+}
+.btn2:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+.services{
+    padding: 100px 0;
+    margin-top:120px;
+    height: 15vh;
+    background-image: linear-gradient(rgba(216, 123, 123, 0.5),rgba(0,0,0,0.5)),url(../Modern\ wedding\ table\ in\ different\ shades\ of\ pink\ _\ Imogen\ Eve\ Photography.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    position: relative;
+
+}
+.services p{
+    top:auto;
+    left:50%;
+    text-align: center;
+    font-family: 'playfair display,sans-serif';
+    font-style: italic;
+    color:#fff;
+    font-size: 42px;
+}
+.ser h1{
+    margin-top: 60px;
+    font-family: 'cambria math';
+    font-size: 40px ;
+}
+.ser p{
+    color: rgb(91, 72, 72);
+    margin-top:3px;
+    font-size:20px;
+    font-family: monotype corsiva;
+}
+.ser .row{
+    display:flex;
+    flex-direction: row;
+} 
+.ser-col{
+    border-radius: 15px;
+    flex-basis: 37%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.ser-col img{
+    width:100%;
+    display: block;
+}
+.reason .rea{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 50%;
+    left:50%;
+    gap:4rem;
+
+
+}
+.layer{
+    background:transparent;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    transition: 0.5s;
+}
+.layer:hover{
+    background:linear-gradient(rgba(216, 123, 123, 0.5),rgba(0,0,0,0.5));
+}
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 82%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity:0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom:49%;
+    opacity: 1;
+
+}
+
+.containerr{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.containerr .headingg h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'cambria math';
+    font-size: 40px ;
+}
+.containerr .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.containerr .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+
+}
+.containerr .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    
+}
+.testiomials h1{
+    padding-top: 50px;
+    font-family: 'cambria math';
+    font-size: 40px ;
+
+}
+.testimonials p{
+    color: rgb(91, 72, 72);
+    margin-top:15px;
+    font-size:18px;
+    font-family: monotype corsiva;
+}
+
+.test .slide-col{
+    margin-top: 30px;
+    margin-left: 25%;
+    width:800px;
+    height: 400px;
+    position: relative;
+}
+.test .user-img{
+    position: relative;
+    top:0;
+    right: 0;
+    height:100%;
+}
+.test .user-img img{
+    height: 100%;
+    border-radius: 10px;
+}
+.test .user-text{
+    background:url(../Pink\ Pink\ Plain\ Vinyl\ Upholstery\ Fabric\ by\ the\ yard\ K0476.jpeg);
+    width:520px;
+    height: 270px;
+    position: absolute;
+    left:30%;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius:10px;
+    color:#fff;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+.test .user-text p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.test .user-text h3{
+    margin-top: 35px 0 5px;
+    color:  rgb(91, 72, 72);
+}
+.test .ccontainer{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top:735%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.contact{
+    margin-top: 70px;
+    background-image:linear-gradient(rgba(142, 59, 59, 0.5),rgba(0,0,0,0.5)),url(../Love\ &\ Marriage.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+.contact h1{
+    padding-top: 50px;
+    font-family: 'cambria math';
+    font-size: 40px ;
+    color:#fff
+
+}
+.contact p{
+    color: rgb(181, 172, 172);
+    margin-top:15px;
+    font-size:18px;
+    font-family: monotype corsiva;
+}
+.contact .row{
+    margin-left:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 50%;
+    left:50%;
+    gap:4rem;
+    padding-bottom: 200px;
+    
+}
+.contact .row .col .map{
+    align-items: center;
+    margin-top:50px;
+    margin-left:70px;
+    width:600px;
+    height:500px;
+}
+.contact .row .col2 form{
+    margin-top:50px;
+    margin-left: 30px;
+    text-align: center;
+    width:100%;
+    height: 500px;
+}
+.contact .row .col2 form p  {
+    font-size: 80px;
+    margin-top: 40%;
+    margin-bottom: 40px;
+}
+.contact .row .col2 form .inputBox{
+    margin-left: 10%;
+    display:flex;
+    flex-direction: column;
+    margin-top:5px;
+    margin-bottom: 5px;
+    background: #fff;
+    width: 400px;
+}
+.contact .row form .inputBox span{
+    color:rgb(181, 172, 172);
+    font-size: 20px;
+    padding-left: 0rem;
+}
+.contact .row .col2 form .inputBox input{
+    padding:7px;
+    font-size:20px;
+    color:#000;
+    text-transform: none;
+    background:none;
+}
+.contact .row .col2 form .btnn{
+    margin-top: 20px;
+    border: 2px solid  rgb(181, 172, 172);
+    padding:5px 10px;
+    font-size: 17px;
+    font-family: cambria math;
+    cursor:pointer;
+    background: rgb(181, 172, 172);;
+    color:#000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.contact .row .col2 form .btnn:hover{
+    background-color: #000;
+    color:rgb(181, 172, 172);
+}
+.contact .FIOU{
+    margin-top: 80px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    color: #f1f1f1;
+    width: 100%;
+    padding-top: 10px;
+}
+.contact .FIOU p{
+    margin-top: 55px;
+    top:auto;
+    left:50%;
+    text-align: center;
+    font-family: 'playfair display,sans-serif';
+    font-style: italic;
+    color:rgb(181, 172, 172);
+    font-size: 35px;
+}
+.contact .FIOU p2{
+    margin-top: 5px;
+    margin-right: 30px;
+    float: right;
+    top:auto;
+    left:50%;
+    text-align: center;
+    font-family: 'playfair display,sans-serif';
+    font-style: italic;
+    color:rgb(181, 172, 172);
+    font-size: 25px;
+}
+.contact .FIOU .icons{
+    font-size: 20px;
+    margin-top: 50px;
+    top:auto;
+    left:50%;
+    color:rgb(181, 172, 172);
+    text-align: center;
+    align-items: center;
+    
+}
+.contact .FIOU p3{
+    margin-top:10px;
+    top:auto;
+    left:50%;
+    text-align: center;
+    font-family: 'cambria math' ;
+    color:rgb(181, 172, 172);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
